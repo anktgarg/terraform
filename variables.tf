@@ -1,5 +1,5 @@
-variable "aws_region" {"us-east-1"}
-variable "aws_profile" {"ankit"}
+variable "aws_region" {}
+variable "aws_profile" {}
 data "aws_availability_zones" "available" {}
 variable "localip" {}
 variable "vpc_cidr" {}
