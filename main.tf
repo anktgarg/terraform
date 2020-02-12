@@ -293,7 +293,7 @@ resource "aws_key_pair" "j_auth" {
 
 resource "aws_instance" "j_dev" {
   instance_type = var.dev_instance_type
-  ami           = var.dev_ami
+  ami           = var.params.dev_ami
 
   tags = {
       Name = "j_dev"
