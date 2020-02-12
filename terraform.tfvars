@@ -19,7 +19,7 @@ dbpassword		= "wordpress"
 */
 key_name		= "terrakey"
 public_key_path		= "/home/ec2-user/.ssh/terrakey.pub"
-dev_instance_type	= "t2.micro"
+#dev_instance_type	= "t2.micro"
 dev_ami			= "ami-062f7200baf2fa504"
 /*
 elb_healthy_threshold   = "2"
